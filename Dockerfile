@@ -11,7 +11,6 @@ RUN apt-get update \
     RODBC \
     caTools
 
-COPY odbc.ini /etc/
 COPY odbcinst.ini /etc/
   
 EXPOSE 8787
